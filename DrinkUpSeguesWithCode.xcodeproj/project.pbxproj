@@ -14,6 +14,12 @@
 		521B36BC23A77D700039B4A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521B36BB23A77D700039B4A7 /* Assets.xcassets */; };
 		521B36BF23A77D700039B4A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521B36BD23A77D700039B4A7 /* LaunchScreen.storyboard */; };
 		521B36CA23A77D710039B4A7 /* DrinkUpSeguesWithCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B36C923A77D710039B4A7 /* DrinkUpSeguesWithCodeTests.swift */; };
+		521B36D523A79A050039B4A7 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B36D423A79A050039B4A7 /* ViewController2.swift */; };
+		529CDE9223AADAEF00C50BA4 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CDE9123AADAEF00C50BA4 /* Formatters.swift */; };
+		52DFC8C323A9889A00BEDC75 /* DrinkUpInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DFC8C223A9889A00BEDC75 /* DrinkUpInformation.swift */; };
+		52F7858323A9331600B10AFA /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7858223A9331600B10AFA /* ViewController3.swift */; };
+		52F7858523A946CB00B10AFA /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7858423A946CB00B10AFA /* ViewController4.swift */; };
+		52F7858723A946DC00B10AFA /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7858623A946DC00B10AFA /* ViewController5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,12 @@
 		521B36C523A77D710039B4A7 /* DrinkUpSeguesWithCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkUpSeguesWithCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		521B36C923A77D710039B4A7 /* DrinkUpSeguesWithCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkUpSeguesWithCodeTests.swift; sourceTree = "<group>"; };
 		521B36CB23A77D710039B4A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521B36D423A79A050039B4A7 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		529CDE9123AADAEF00C50BA4 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		52DFC8C223A9889A00BEDC75 /* DrinkUpInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkUpInformation.swift; sourceTree = "<group>"; };
+		52F7858223A9331600B10AFA /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		52F7858423A946CB00B10AFA /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		52F7858623A946DC00B10AFA /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,7 @@
 		521B36B123A77D700039B4A7 /* DrinkUpSeguesWithCode */ = {
 			isa = PBXGroup;
 			children = (
+				529CDE9023AADAB500C50BA4 /* Helpers */,
 				521B36B223A77D700039B4A7 /* AppDelegate.swift */,
 				521B36B423A77D700039B4A7 /* SceneDelegate.swift */,
 				521B36B623A77D700039B4A7 /* ViewController.swift */,
@@ -86,6 +99,11 @@
 				521B36BB23A77D700039B4A7 /* Assets.xcassets */,
 				521B36BD23A77D700039B4A7 /* LaunchScreen.storyboard */,
 				521B36C023A77D700039B4A7 /* Info.plist */,
+				521B36D423A79A050039B4A7 /* ViewController2.swift */,
+				52F7858223A9331600B10AFA /* ViewController3.swift */,
+				52F7858423A946CB00B10AFA /* ViewController4.swift */,
+				52F7858623A946DC00B10AFA /* ViewController5.swift */,
+				52DFC8C223A9889A00BEDC75 /* DrinkUpInformation.swift */,
 			);
 			path = DrinkUpSeguesWithCode;
 			sourceTree = "<group>";
@@ -97,6 +115,14 @@
 				521B36CB23A77D710039B4A7 /* Info.plist */,
 			);
 			path = DrinkUpSeguesWithCodeTests;
+			sourceTree = "<group>";
+		};
+		529CDE9023AADAB500C50BA4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				529CDE9123AADAEF00C50BA4 /* Formatters.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +226,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F7858323A9331600B10AFA /* ViewController3.swift in Sources */,
+				52F7858523A946CB00B10AFA /* ViewController4.swift in Sources */,
 				521B36B723A77D700039B4A7 /* ViewController.swift in Sources */,
+				529CDE9223AADAEF00C50BA4 /* Formatters.swift in Sources */,
+				521B36D523A79A050039B4A7 /* ViewController2.swift in Sources */,
 				521B36B323A77D700039B4A7 /* AppDelegate.swift in Sources */,
 				521B36B523A77D700039B4A7 /* SceneDelegate.swift in Sources */,
+				52DFC8C323A9889A00BEDC75 /* DrinkUpInformation.swift in Sources */,
+				52F7858723A946DC00B10AFA /* ViewController5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
